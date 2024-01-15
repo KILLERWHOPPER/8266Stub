@@ -1,6 +1,7 @@
 #ifndef DIY_SERVO_HPP
 #define DIY_SERVO_HPP
 
+// Modify pin definitions if necessary
 #define SERVO1_PIN D1
 #define SERVO2_PIN D2
 
