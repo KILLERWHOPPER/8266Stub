@@ -19,6 +19,9 @@ void wifi_init() {
   server.on("/left", HTTP_GET, handleLeft);
   server.on("/right", HTTP_GET, handleRight);
   server.on("/stop", HTTP_GET, handleStop);
+  server.on("/action1", HTTP_GET, handleAction1);
+  server.on("/action2", HTTP_GET, handleAction2);
+  server.on("/action3", HTTP_GET, handleAction3);
   server.begin();
 }
 
@@ -50,6 +53,24 @@ void handleStop() {
   server.send(200, "text/html", "Stop");
   // TODO: Put control code here
   Serial.println("Stop");
+}
+
+void handleAction1() {
+  server.send(200, "text/html", "Action1");
+  // TODO: Put control code here
+  Serial.println("Action1");
+}
+
+void handleAction2() {
+  server.send(200, "text/html", "Action2");
+  // TODO: Put control code here
+  Serial.println("Action2");
+}
+
+void handleAction3() {
+  server.send(200, "text/html", "Action3");
+  // TODO: Put control code here
+  Serial.println("Action3");
 }
 
 void handleTest() {

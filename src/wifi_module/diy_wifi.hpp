@@ -26,4 +26,10 @@ void handleRight();
 
 void handleStop();
 
+void handleAction1();
+
+void handleAction2();
+
+void handleAction3();
+
 #endif
