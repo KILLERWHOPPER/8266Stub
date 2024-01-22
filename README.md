@@ -12,9 +12,9 @@
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/8266stub?color=56BEB8">
 
-  <!-- <img alt="Github language count" src="https://img.shields.io/github/languages/count/KILLERWHOPPER/8266stub?color=56BEB8">` -->
+<!-- <img alt="Github language count" src="https://img.shields.io/github/languages/count/KILLERWHOPPER/8266stub?color=56BEB8">` -->
 
-  <!-- <img alt="Repository size" src="https://img.shields.io/github/repo-size/KILLERWHOPPER/8266stub?color=56BEB8">` -->
+<!-- <img alt="Repository size" src="https://img.shields.io/github/repo-size/KILLERWHOPPER/8266stub?color=56BEB8">` -->
 
 <img alt="License" src="https://img.shields.io/github/license/KILLEREWHOPPER/8266stub?color=56BEB8">
 
@@ -63,6 +63,7 @@ The following tools were used in this project:
 - [PlatformIO](https://platformio.org/?utm_source=platformio&utm_medium=piohome)
 - [ESP8266](https://www.espressif.com/en/products/socs/esp8266)
 - [Arduino-ESP32](https://github.com/espressif/arduino-esp32)
+- [MIT App Inventor](https://ai2.appinventor.mit.edu)
 
 ## ✅ Requirements
 
@@ -89,8 +90,8 @@ The following tools were used in this project:
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
-Made with ❤️ by <a href="https://github.com/KILLERWHOPPER" target="_blank">`KILLERWHOPPER `</a>
+Made with ❤️ by `<a href="https://github.com/KILLERWHOPPER" target="_blank">KILLERWHOPPER ``</a>`
 
 &#xa0;
 
-<a href="#top">`Back to top `</a>
+`<a href="#top">Back to top ``</a>`
