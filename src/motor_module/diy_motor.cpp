@@ -47,5 +47,5 @@ void turn_left() {
 
 void turn_right() {
   motor1.backward();
-  motor2.forward()；
+  motor2.forward();
 }
