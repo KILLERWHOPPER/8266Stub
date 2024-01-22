@@ -12,9 +12,9 @@
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/8266stub?color=56BEB8">
 
-  `<img alt="Github language count" src="https://img.shields.io/github/languages/count/KILLERWHOPPER/8266stub?color=56BEB8">`
+  <!-- <img alt="Github language count" src="https://img.shields.io/github/languages/count/KILLERWHOPPER/8266stub?color=56BEB8">` -->
 
-  `<img alt="Repository size" src="https://img.shields.io/github/repo-size/KILLERWHOPPER/8266stub?color=56BEB8">`
+  <!-- <img alt="Repository size" src="https://img.shields.io/github/repo-size/KILLERWHOPPER/8266stub?color=56BEB8">` -->
 
 <img alt="License" src="https://img.shields.io/github/license/KILLEREWHOPPER/8266stub?color=56BEB8">
 
@@ -35,12 +35,12 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">About</a>   |   
-  <a href="#sparkles-features">Features</a>   |  
-  <a href="#rocket-technologies">Technologies</a>   |  
-  <a href="#white_check_mark-requirements">Requirements</a>   |  
-  <a href="#checkered_flag-starting">Starting</a>   |  
-  <a href="#memo-license">License</a>   |  
+  <a href="🎯 About">About</a>   |   
+  <a href="✨ Features">Features</a>   |  
+  <a href="🚀 Technologies">Technologies</a>   |  
+  <a href="✅ Requirements">Requirements</a>   |  
+  <a href="🏁 Starting">Starting</a>   |  
+  <a href="📝 License">License</a>   |  
   <a href="https://github.com/KILLERWHOPPER" target="_blank">Author</a>
 </p>
 
@@ -87,10 +87,10 @@ The following tools were used in this project:
 
 ## 📝 License
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
-Made with ❤️ by `<a href="https://github.com/KILLERWHOPPER" target="_blank">`KILLERWHOPPER `</a>`
+Made with ❤️ by <a href="https://github.com/KILLERWHOPPER" target="_blank">`KILLERWHOPPER `</a>
 
 &#xa0;
 
-`<a href="#top">`Back to top `</a>`
+<a href="#top">`Back to top `</a>
