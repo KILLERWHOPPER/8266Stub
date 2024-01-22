@@ -1,13 +1,28 @@
 #include "diy_motor.hpp"
 
-void motor_init() {
-  L298N motor1(MOTOR1_PWM_A_PIN, MOTOR1_PWM_B_PIN);
-  L298N motor2(MOTOR2_PWM_A_PIN, MOTOR2_PWM_B_PIN);
+L298N motor1(MOTOR1_PWM_A_PIN, MOTOR1_PWM_B_PIN);
+L298N motor2(MOTOR2_PWM_A_PIN, MOTOR2_PWM_B_PIN);
+
+int pwm_speed = 0;
+
+void motor_init(){
+    pinMode(MOTOR1_PWM_A_PIN, OUTPUT);
+    pinMode(MOTOR1_PWM_B_PIN, OUTPUT);
+    pinMode(MOTOR2_PWM_A_PIN, OUTPUT);
+    pinMode(MOTOR2_PWM_B_PIN, OUTPUT);
 }
 
 void set_motor_speed(int speed) {
-  motor1.setSpeed(speed);
-  motor2.setSpeed(speed);
+    motor1.setSpeed(speed);
+    motor2.setSpeed(speed);
+  pwm_speed = speed;
+  if (pwm_speed > 255) {
+    pwm_speed = 255;
+  }
+  if (pwm_speed < 0) {
+    pwm_speed = 0;
+  }
+  Serial.printf("SetSpeed: %d\n", speed);
 }
 
 void stop() {
@@ -16,25 +31,21 @@ void stop() {
 }
 
 void move_forward() {
-  set_motor_speed(255);
   motor1.forward();
   motor2.forward();
 }
 
 void move_backward() {
-  set_motor_speed(255);
   motor1.backward();
   motor2.backward();
 }
 
 void turn_left() {
-  set_motor_speed(127);
-  motor1.backward();
-  motor2.forward();
+  motor1.forward();
+  motor2.backward();
 }
 
 void turn_right() {
-  set_motor_speed(127);
-  motor1.forward();
-  motor2.backward();
+  motor1.backward();
+  motor2.forward()；
 }

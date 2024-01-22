@@ -4,7 +4,7 @@
 #include "motor_module/diy_motor.hpp"
 
 void setup() {
-    Serial.begin(115200);
+    Serial.begin(9600);
     wifi_init();
     servo_init();
     motor_init();
