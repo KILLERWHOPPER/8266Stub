@@ -90,8 +90,8 @@ The following tools were used in this project:
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
-Made with ❤️ by `<a href="https://github.com/KILLERWHOPPER" target="_blank">KILLERWHOPPER ``</a>`
+Made with ❤️ by <a href="https://github.com/KILLERWHOPPER" target="_blank">KILLERWHOPPER</a>
 
 &#xa0;
 
-`<a href="#top">Back to top ``</a>`
+<a href="#top">Back to top</a>
